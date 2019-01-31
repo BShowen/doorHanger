@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+
+}
+
+#mainLogo {
+    display: flex;
+    justify-content: center;
+}
+
+#mainLogo img {
+    max-width: 100%;
+    height: auto;
+    padding: 1em;
+}
+
+#contentHeader {
+    display: flex;
+    flex-flow: wrap;
+    max-width: 100%;
+    min-width: 100px;
+    justify-content: space-evenly;
+}
+
+#contentBody {
+    display: flex;
+    max-width: 100%;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+
+#contentFooter {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+
+#pageFooter { 
+    max-width: 100%;
+    display: flex;
+}
+
+#commentBox {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+#textArea {
+    width: 100%;
+    max-width: 600px;
+    height: 50px;
+    border: 1px solid #38b9eb;
+    border-radius: 5px;
+}
+h2 {
+    font-family: 'times new roman';
+    font-size: 2vw;
+}
+
+p {
+    font-family: 'times new roman';
+    font-size: 1.2vw;
+}
+
+#customer, #date, #time, #serviced {
+    width: 110px;
+    border: 1px solid #38b9eb;
+    border-radius: 3px;
+}
+
+#alkaline {
+    width: 45px;
+    border: 1px solid #38b9eb;
+    border-radius: 3px;
+}
